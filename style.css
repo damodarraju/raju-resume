@@ -1,0 +1,404 @@
+                                            /*font-family: 'Laila', serif;*/
+                                        
+                                        @media screen and (max-width: 767px) {
+                                            #curlBracket {
+                                                display: none;
+                                            }
+                                        }
+                                        
+                                        h1,
+                                        h2,
+                                        h3,
+                                        h4,
+                                        h5,
+                                        h6,
+                                        p,
+                                        li,
+                                        input[type=submit] {
+                                            font-family: 'Ruluko', sans-serif;
+                                        }
+                                        
+                                        li {
+                                            font-size: 16px;
+                                        }
+                                        
+                                        #mainBg {
+                                            background-image: url("images/background.png");
+                                            height: 100vh;
+                                            background-size: cover;
+                                        }
+                                        
+                                        #sectionOne,
+                                        #sectionTwo {
+                                            text-align: center;
+                                        }
+                                        
+                                        #sectionOne {
+                                            color: #ffffff;
+                                            font-family: 'Ruluko', sans-serif;
+                                            display: flex;
+                                            align-items: center;
+                                            justify-content: center;
+                                            padding: 40px 20px 40px 20px;
+                                        }
+                                        
+                                        #sectionOne h1 p {
+                                            margin: 0;
+                                        }
+                                        
+                                        #mainLogo {
+                                            height: 80%;
+                                        }
+                                        
+                                        #sectionOne p {
+                                            font-size: 24px;
+                                            margin: 40px 0 40px 0px;
+                                            letter-spacing: 1px;
+                                        }
+                                        
+                                        #sectionOne .container {
+                                            width: 400px;
+                                        }
+                                        
+                                        #mainLogo img {
+                                            padding-top: 30px;
+                                        }
+                                        
+                                        #sectionOne h1 {
+                                            text-align: left;
+                                        }
+                                        
+                                        #sectionTwo {
+                                            height: 20%;
+                                            background-color: #D8D8D8;
+                                            color: #000000;
+                                            font-family: 'Ruluko', sans-serif;
+                                            display: flex;
+                                            align-items: center;
+                                            justify-content: center
+                                        }
+                                        
+                                        #sectionTwo p {
+                                            margin: 0;
+                                        }
+                                        /*End of section 1 */
+                                        
+                                        #sectionHelp {
+                                            background: #ececec;
+                                            padding-top: 100px;
+                                            padding-bottom: 100px;
+                                        }
+                                        
+                                        #sectionHelp .container {
+                                            max-width: 875px;
+                                        }
+                                        
+                                        #sectionHelp h4 {
+                                            font-size: 28px;
+                                        }
+                                        
+                                        #sectionHelp p {
+                                            font-size: 18px;
+                                        }
+                                        
+                                        .twoHeading h2 {
+                                            font-family: 'Ruluko', sans-serif;
+                                            text-align: center;
+                                            padding: 0px 0 30px 0px;
+                                            border-bottom: 1px solid #D8D8D8;
+                                            margin-bottom: 30px;
+                                        }
+                                        
+                                        .helpSkills {
+                                            padding: 20px 0 20px 0;
+                                        }
+                                        
+                                        .skills ul {
+                                            padding: 20px;
+                                        }
+                                        
+                                        #curlBracket {
+                                            font-size: 220px;
+                                            font-weight: 100;
+                                        }
+                                        /*End of section 2 */
+                                        
+                                        #sectionThree {
+                                            padding-top: 100px;
+                                            padding-bottom: 100px;
+                                            background: rgb(42, 139, 157);
+                                            padding-left: 20px;
+                                            padding-right: 20px;
+                                            color: #fcfcfc;
+                                        }
+                                        
+                                        #sectionThree .twoHeading {
+                                            margin-bottom: 30px;
+                                        }
+                                        
+                                        #sectionThree .twoHeading h2 {
+                                            max-width: 865px;
+                                            margin: auto;
+                                        }
+                                        
+                                        .benefits p {
+                                            text-align: center;
+                                            font-size: 18px;
+                                        }
+                                        /*End of section 3 */
+                                        
+                                        #sectionFour {
+                                            padding: 80px 20px 80px 20px;
+                                        }
+                                        
+                                        .learnMore h2 {
+                                            text-align: center;
+                                        }
+                                        
+                                        .downloadResume {
+                                            text-align: center;
+                                            margin-top: 40px;
+                                            margin-bottom: 40px;
+                                        }
+                                        
+                                        input {
+                                            border: none;
+                                            padding: 18px;
+                                            font-size: 16px;
+                                            border-bottom: 4px solid #d8d8d8;
+                                            color: white;
+                                            background: rgba(61, 51, 50, 0.78)
+                                        }
+                                        /*End of section 4 */
+                                        
+                                        #sectionFive .twoHeading {
+                                            padding: 0px 20px 50px 20px;
+                                        }
+                                        
+                                        #sectionFive .container {
+                                            width: auto;
+                                        }
+                                        
+                                        #sectionFive .twoHeading h2 {
+                                            text-align: center;
+                                            padding: 0px 20px 30px 20px;
+                                            max-width: 865px;
+                                            margin: auto;
+                                        }
+                                        
+                                        #sectionFive {
+                                            background: #ececec;
+                                            padding-top: 80px;
+                                            padding-bottom: 80px;
+                                        }
+                                        
+                                        .thumbnail {
+                                            border: none;
+                                        }
+                                        
+                                        .thumbnail>img {
+                                            border: 2px solid #9c9999;
+                                            border-radius: 3px;
+                                        }
+                                        
+                                        .thumbnail img:hover {
+                                            border-color: #9c9999;
+                                            box-shadow: 0px 0px 35px 4px black;
+                                        }
+                                        /*End of section 5 */
+                                        
+                                        #sectionSix {
+                                            padding-top: 80px;
+                                            padding-bottom: 80px;
+                                        }
+                                        
+                                        #sectionSix .twoHeading {
+                                            padding: 0px 20px 50px 20px;
+                                        }
+                                        
+                                        #sectionSix .twoHeading h2 {
+                                            text-align: center;
+                                            padding: 0px 20px 30px 20px;
+                                            max-width: 565px;
+                                            margin: auto;
+                                        }
+                                        
+                                        #sectionSix #align {
+                                            text-align: center;
+                                        }
+                                        
+                                        #align p {
+                                            margin-top: 15px;
+                                            margin-bottom: 15px;
+                                        }
+                                        
+                                        .hobbies p {
+                                            padding-top: 30px;
+                                            font-size: 18px;
+                                            text-align: center;
+                                        }
+                                        /*End of section 6 */
+                                        
+                                        #sectionSeven {
+                                            padding-top: 100px;
+                                            padding-bottom: 100px;
+                                            background: #ececec;
+                                        }
+                                        
+                                        .portfolioImage {
+                                            text-align: center;
+                                        }
+                                        
+                                        .socialIcons {
+                                            text-align: center;
+                                            margin-top: 15px;
+                                            margin-bottom: 30px;
+                                        }
+                                        
+                                        .horiLine {
+                                            text-align: center;
+                                            margin-top: 20px;
+                                        }
+                                        
+                                        .dreamLine {
+                                            text-align: center;
+                                            font-size: 16px;
+                                        }
+                                        
+                                        .mail {
+                                            text-align: center;
+                                            margin-top: 30px;
+                                            margin-bottom: 30px;
+                                        }
+                                        
+                                        .mail p {
+                                            width: 300px;
+                                            background: antiquewhite;
+                                            padding: 10px;
+                                            border-bottom: 2px solid black;
+                                        }
+                                        /*Social icons*/
+                                        
+                                        @font-face {
+                                            font-family: 'si';
+                                            src: url('icons/socicon.eot');
+                                            src: url('icons/socicon.eot?#iefix') format('embedded-opentype'), url('icons/socicon.woff') format('woff'), url('icons/socicon.ttf') format('truetype'), url('icons/socicon.svg#icomoonregular') format('svg');
+                                            font-weight: normal;
+                                            font-style: normal;
+                                        }
+                                        
+                                        @media screen and (-webkit-min-device-pixel-ratio:0) {
+                                            @font-face {
+                                                font-family: si;
+                                                src: url(PATH_TO/socicon.svg) format(svg);
+                                            }
+                                        }
+                                        
+                                        .soc {
+                                            overflow: hidden;
+                                            margin: 0;
+                                            padding: 0;
+                                            list-style: none;
+                                            display: inline;
+                                        }
+                                        
+                                        .soc li {
+                                            display: inline-block;
+                                            *display: inline;
+                                            zoom: 1;
+                                        }
+                                        
+                                        .soc li a {
+                                            font-family: si!important;
+                                            font-style: normal;
+                                            font-weight: 400;
+                                            -webkit-font-smoothing: antialiased;
+                                            -moz-osx-font-smoothing: grayscale;
+                                            -webkit-box-sizing: border-box;
+                                            -moz-box-sizing: border-box;
+                                            -ms-box-sizing: border-box;
+                                            -o-box-sizing: border-box;
+                                            box-sizing: border-box;
+                                            -o-transition: .1s;
+                                            -ms-transition: .1s;
+                                            -moz-transition: .1s;
+                                            -webkit-transition: .1s;
+                                            transition: .1s;
+                                            -webkit-transition-property: transform;
+                                            transition-property: transform;
+                                            -webkit-transform: translateZ(0);
+                                            transform: translateZ(0);
+                                            overflow: hidden;
+                                            text-decoration: none;
+                                            text-align: center;
+                                            display: block;
+                                            position: relative;
+                                            z-index: 1;
+                                            width: 42px;
+                                            height: 42px;
+                                            line-height: 42px;
+                                            font-size: 23px;
+                                            -webkit-border-radius: 100px;
+                                            -moz-border-radius: 100px;
+                                            border-radius: 100px;
+                                            margin-right: 35px;
+                                            color: #ffffff;
+                                            background-color: none;
+                                        }
+                                        
+                                        .soc a:hover {
+                                            z-index: 2;
+                                            -webkit-transform: translateY(-5px);
+                                            transform: translateY(-5px);
+                                        }
+                                        
+                                        .soc-icon-last {
+                                            margin: 0 !important;
+                                        }
+                                        
+                                        .soc-facebook {
+                                            background-color: #3e5b98;
+                                        }
+                                        
+                                        .soc-facebook:before {
+                                            content: '\e041';
+                                        }
+                                        
+                                        .soc-github {
+                                            background-color: #221e1b;
+                                        }
+                                        
+                                        .soc-github:before {
+                                            content: '\e030';
+                                        }
+                                        
+                                        .soc-twitter {
+                                            background-color: #4da7de;
+                                        }
+                                        
+                                        .soc-twitter:before {
+                                            content: '\e040';
+                                        }
+                                        
+                                        .soc-googleplus {
+                                            background-color: #dd4b39;
+                                        }
+                                        
+                                        .soc-googleplus:before {
+                                            content: '\e042';
+                                        }
+                                        
+                                        .soc-instagram {
+                                            background-color: #fbad50;
+                                        }
+                                        
+                                        .soc-instagram:before {
+                                            content: '\e057';
+                                        }
+                                        
+                                        .soc-mail {
+                                            background-color: #000000;
+                                        }
+                                        
+                                        .soc-mail:before {
+                                            content: '\e01f';

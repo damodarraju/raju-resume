@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="110px" height="110px" viewBox="0 0 110 110" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40.2 (33826) - http://www.bohemiancoding.com/sketch -->
+    <title>Artboard 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M18,60 L28.0552675,60 L60.3300018,60" id="path-1"></path>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-2">
+            <feMorphology radius="0.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="2" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feMorphology radius="1" operator="erode" in="SourceAlpha" result="shadowInner"></feMorphology>
+            <feOffset dx="0" dy="2" in="shadowInner" result="shadowInner"></feOffset>
+            <feComposite in="shadowOffsetOuter1" in2="shadowInner" operator="out" result="shadowOffsetOuter1"></feComposite>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <text id="text-3" font-family="Chalkboard" font-size="40" font-weight="normal">
+            <tspan x="58" y="75">D</tspan>
+        </text>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <text id="text-5" font-family="Chalkboard-Bold, Chalkboard" font-size="40" font-weight="bold">
+            <tspan x="37" y="53">R</tspan>
+        </text>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-6">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-2">
+            <g id="Group" transform="translate(5.000000, 5.000000)">
+                <g id="Line">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use stroke="#FFFFFF" stroke-width="1" stroke-linecap="square" xlink:href="#path-1"></use>
+                </g>
+                <g id="D" opacity="0.835880888" style="mix-blend-mode: overlay;" fill="#FFFFFF">
+                    <use fill-opacity="1" filter="url(#filter-4)" xlink:href="#text-3"></use>
+                    <use fill-rule="evenodd" xlink:href="#text-3"></use>
+                    <use fill-opacity="1" xlink:href="#text-3"></use>
+                </g>
+                <g id="R" fill-opacity="0.809131567" fill="#FFFFFF">
+                    <use filter="url(#filter-6)" xlink:href="#text-5"></use>
+                    <use fill-rule="evenodd" xlink:href="#text-5"></use>
+                    <use xlink:href="#text-5"></use>
+                </g>
+                <text id="I’m-Raju-." font-family="Gabriola" font-size="14" font-weight="normal" fill="#FFFFFF">
+                    <tspan x="18" y="71">I’m Raju .</tspan>
+                </text>
+                <circle id="Oval-3" stroke="#FFFFFF" stroke-width="3" cx="50" cy="50" r="50"></circle>
+            </g>
+        </g>
+    </g>
+</svg>
